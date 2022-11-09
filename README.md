@@ -65,3 +65,10 @@ Start the server
 ```bash
   npm start
 ```
+
+You will see the following message in console
+
+```
+  Server runs at: http://localhost:9090
+```
+
