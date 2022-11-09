@@ -2,7 +2,7 @@ const { ApolloServer } = require('apollo-server')
 const { typeDefs } = require('./schema')
 const { resolvers } = require('./resolvers')
 
-const port = process.env.PORT || 9000;
+const port = 9090;
 
 const server = new ApolloServer({ resolvers, typeDefs });
 
