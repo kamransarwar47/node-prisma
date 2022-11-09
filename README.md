@@ -1,4 +1,6 @@
+# node-prisma
 
+This application runs a Graphql API using Apollo Server with Prisma ORM and Postgres DB.
 ## Run Locally
 
 You need to have [nodejs](https://nodejs.org/en/) and npm installed to run this application
