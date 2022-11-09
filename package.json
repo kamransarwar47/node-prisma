@@ -1,0 +1,29 @@
+{
+  "name": "node-graphql-prisma",
+  "version": "1.0.0",
+  "description": "Grapghql API with Nodejs, Prisma, Postgres and Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/",
+    "dev": "nodemon src/"
+  },
+  "keywords": [
+    "Grapghql",
+    "API",
+    "Node.js",
+    "Prisma",
+    "Postgres",
+    "Docker"
+  ],
+  "author": "Kamran Sarwar <kamransarwar47@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.6.0",
+    "apollo-server": "^3.11.1",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "prisma": "^4.6.0"
+  }
+}
